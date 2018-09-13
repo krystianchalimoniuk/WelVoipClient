@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Ustawienia">
+    <PreferenceCategory
+        android:title="Ustawiena"
+        />
+
+    <ListPreference     android:title="Kodek kompresji mowy"
+        android:summary="Wybierz kodek, którym będziesz kompresował mowę"
+        android:key="codecPref"
+        android:defaultValue="1"
+        android:entries="@array/listArray1"
+        android:entryValues="@array/listValues1" />
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="welvoipclient.com.welvoipclient">
+
+        <application  android:label="WEL VoIP Client"
+            android:name=".MyApp"
+            android:icon="@drawable/wel"
+            android:theme="@style/AppTheme"
+            >
+
+            <meta-data
+                android:name="DATABASE"
+                android:value="contacts.db" />
+            <meta-data
+                android:name="VERSION"
+                android:value="1" />
+            <meta-data
+                android:name="QUERY_LOG"
+                android:value="true" />
+            <meta-data
+                android:name="DOMAIN_PACKAGE_NAME"
+                android:value="welvoipclient.com.welvoipclient" />
+
+            <activity android:name=".MainActivity"
+                android:configChanges="orientation|keyboardHidden"
+                android:theme="@style/AppTheme.NoActionBar" />
+
+            <activity android:name=".CallActivity"
+                android:theme="@style/AppTheme.NoActionBar"
+                />
+            <activity android:name=".IncomingCallActivity"
+                android:theme="@style/AppTheme.NoActionBar" />
+            <activity android:name=".AddContactsActivity"
+                android:theme="@style/AppTheme.NoActionBar" />
+
+            <activity android:name=".SettingsActivity" android:label="Ustawienia"
+                android:theme="@style/AppTheme.NoActionBar"/>
+            <activity android:name=".SplashActivity"
+                android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+                </activity>
+        </application>
+        <uses-sdk android:minSdkVersion="9" />
+        <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+        <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.VIBRATE" />
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+        <uses-permission android:name="android.permission.WAKE_LOCK" />
+        <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+        <uses-feature android:name="android.hardware.wifi" android:required="true" />
+        <uses-feature android:name="android.hardware.microphone" android:required="true" />
+    </manifest>
