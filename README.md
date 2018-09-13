@@ -8,7 +8,7 @@ Aplikacja oparta jest o bibliotekę android.net.rtp oraz o architekturę klient-
 * G.711u
 
 Do każdego z kodeków przypisana jest  wartość przepustowości zgodna z [cisco](www.ciscopress.com/articles/article.asp?p=357102). Podczas gdy warunki sieciowe ulegną zmianie, ustawiany jest kodek, który oferuje lepszą jakość (gdy warunki zmieniają się na lepsze), bądź ma niższe wymagania na przepustowość (gdy warunki sieciowe pogarszają się).
-Aplikacja ma w sobie zaimplementowaną bazę danych SugarORM, która przechowuje kontakty (imię i nazwisko, adres IP).
+Aplikacja ma w sobie zaimplementowaną bazę danych SugarCRM, która przechowuje kontakty (imię i nazwisko, adres IP).
 # Uprawnienia
 ```java
 <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
