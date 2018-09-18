@@ -20,8 +20,8 @@ Aplikacja ma w sobie zaimplementowaną bazę danych SugarCRM, która przechowuje
 <uses-permission android:name="android.permission.RECORD_AUDIO" />
 ```
 # Aktywności
-![MainActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/15978312_1408727519160553_1092735164_n.png?_nc_cat=0&oh=07337a840304a62f3d61f9f24e1d3d4c&oe=5B9D563B)
- ![SettingsActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16117650_1415585075141464_1725654258_n.png?_nc_cat=0&oh=da6c1baec81133c45e302785fcaf386d&oe=5B9C6B59) 
-![](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/15942352_1408231062543532_1387954132_n.png?_nc_cat=0&oh=a258e5b6436530ce9c90a1bbd34f69d2&oe=5B9D33BF)
- ![CallActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16359051_1427128400653798_1326292315_n.png?_nc_cat=0&oh=b761448c6169dcfa0a73e2ad3b710adf&oe=5B9C6F35) 
- ![CallActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16401959_1427128450653793_112361856_n.png?_nc_cat=0&oh=963e24ce62e1d13613324d4c219e78fa&oe=5B9D5A21) 
+![MainActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/15978312_1408727519160553_1092735164_n.png?_nc_cat=0&oh=2c30538d788aafd336f261f943e4e59b&oe=5BA344FB)
+ ![SettingsActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16117650_1415585075141464_1725654258_n.png?_nc_cat=0&oh=568ae60e68e9eeb787b1fa47feee4607&oe=5BA302D9) 
+![](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16359051_1427128400653798_1326292315_n.png?_nc_cat=0&oh=4708e85073776d8a0b9fccad7cd203e3&oe=5BA306B5)
+ ![CallActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/16401959_1427128450653793_112361856_n.png?_nc_cat=0&oh=0a73d6a995f9a4ee2eeab8329596a506&oe=5BA348E1) 
+ ![CallActivity](https://scontent-waw1-1.xx.fbcdn.net/v/t34.18173-12/15942352_1408231062543532_1387954132_n.png?_nc_cat=0&oh=a00acbfa50604e26ece33e0250e98d7e&oe=5BA3227F) 
